@@ -1,10 +1,10 @@
 <?php
 
 $host = "host.docker.internal"; 
-$port = "5432";
+$port = "5112";
 $username = "user";
 $password = "password";
-$dbname = "mydatabase";
+$dbname = "meetingcaldendardatabase";
 
 $conn_string = "host=$host port=$port dbname=$dbname user=$username password=$password";
 

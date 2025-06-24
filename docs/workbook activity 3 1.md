@@ -41,7 +41,7 @@ Change the following:
     - [x] change the `5112` with your updated port with internal/external port
     > `$port = "5112";` -> `$port = "5555";`
 - [x] Spin up the project: in terminal use the command: `docker compose up` and in new cmd is `docker compose watch`
-- [ ] Add the checker in any pages and wait for either of the 2:
+- [x] Add the checker in any pages and wait for either of the 2:
     All working: 
     ```html
     ✅ Connected to MongoDB successfully.
@@ -68,7 +68,7 @@ composer require vlucas/phpdotenv
 ## 6. Modifying `.env`: Update `.env`
 Make sure important informations are hidden and tucked . as in testing of for the checker they should be changed from hard codded to env based
 
-- [ ] Fill all the following data
+- [x] Fill all the following data
 > Restart the docker after this. both `docker compose watch` and `docker compose up`
 - [ ] Change the hard coded of checkers to env based
 - [ ] Create a `envSetter.util.php` code distributing all the env
