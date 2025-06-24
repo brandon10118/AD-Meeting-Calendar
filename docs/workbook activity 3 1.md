@@ -201,7 +201,7 @@ foreach (['users'] as $table) {
 }
 ```
 
-- [ ] Add the command in the composer.json
+- [x] Add the command in the composer.json
     - below `scripts` add a new library key set
     - `"postgresql:reset": "php utils/dbResetPostgresql.util.php`
 
