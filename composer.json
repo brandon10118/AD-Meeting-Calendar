@@ -1,10 +1,15 @@
 {
-    "name": "your-username-here/project-name-here",
+    "name": "brandon/ad-meeting-calendar",
     "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Brandon\\AdMeetingCalendar\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "your-username-here",
-            "email": "your-email-here@gmail.com"
+            "name": "brandon10118",
+            "email": "202310118@fit.edu.ph"
         }
     ],
     "scripts": {
